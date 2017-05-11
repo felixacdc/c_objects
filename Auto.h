@@ -1,6 +1,8 @@
 #ifndef AUTO
 #define AUTO
-#include <string.h>
+#include <string>
+
+using namespace std;
 
 class Auto {
 	//Atributos
@@ -14,6 +16,10 @@ class Auto {
 		float Acelerar();
 		float Frenar();
 		void RecibirPasajeros(int nroPasejeros);
+		void SetMarca(string _marca)
+		{
+			marca = _marca;
+		}
 };
 
 #endif

@@ -7,5 +7,10 @@ int main() {
 	
 	Auto miCarro;
 	
+	miCarro.SetMarca("Toyota");
+	miCarro.Pitar();
+	
+	cin.get();
+	
 	return 0;
 }
